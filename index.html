@@ -10,10 +10,63 @@
     <link rel="stylesheet" href="css/styles.css">
     <title>Saigon Vietnamese and Chinese Cuisine</title>
 </head>
-<body>
+<body id="custom-body">
+<!--Start of Navigation Bar for Pages-->
+<div class="container-fluid" id="main-nav-container">
+    <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-between align-items-center">
+        <a class="navbar-brand" href="#"><img src="./img/Icon.png" class="img-fluid" id="main-nav-icon"
+                                              alt="Responsive image"></a>
+        <div class="main-font" id="main-nav-bar-title">
+            <h1>SAIGON</h1>
+        </div>
+        <button class="navbar-toggler" id="btn-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link secondary-font" href="#">About Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle secondary-font" href="#" id="navbarDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Menu
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item secondary-font" href="#">Vietnamese Dishes</a>
+                        <a class="dropdown-item secondary-font" href="#">Chinese Dishes</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item secondary-font" href="#">Specials</a>
+                        <a class="dropdown-item secondary-font" href="#">Beverages</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link secondary-font" href="#">Hours</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link secondary-font" href="#">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<!--End of Navigation Bar for Pages-->
 
-
-
+<!--Start of Home Page-->
+<div class="container-fluid p-0" id="main-home-page-container">
+    <div class="container-fluid" id="main-jumbotron-container">
+        <div class="jumbotron jumbotron-fluid" id="jumbotron">
+            <div class="container" id="jumbotron-text-container">
+                <h1 class="display-5 secondary-font" id="jumbotron-heading">There is No Love Sincerer Than The Love of
+                    Food!</h1>
+<!--                <p class="lead secondary-font">There is No Love Sincerer Than The Love of
+                    Food!!!</p>-->
+            </div>
+        </div>
+    </div>
+</div>
 
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->

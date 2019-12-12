@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates|Raleway|Roboto&display=swap');
+
+:root {
+    --main-yellow-color: #b5b00a;
+    --main-red-color: #ee1c25;
+    --main-heading-font: 'Montserrat Alternates', sans-serif;
+    --main-text-font: 'Roboto', sans-serif;
+    --secondary-text-font: 'Raleway', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+
+}
+.main-font {
+    font-family: var(--main-heading-font);
+}
+.secondary-font {
+    font-family: var(--secondary-text-font);
+}
+#custom-body .nav-link {
+    color: yellow;
+}
+#custom-body .dropdown-menu {
+    background-color: var(--main-red-color);
+    border: none;
+}
+#custom-body .dropdown-item {
+    color: yellow;
+}
+#btn-toggler {
+    background-color: yellow;
+}
+
+#main-nav-container {
+    padding: 0;
+    background-color: var(--main-red-color);
+}
+#main-nav-icon {
+    height: 3rem;
+    width: 3rem;
+}
+#main-nav-bar-title {
+    color: yellow;
+}
+#main-jumbotron-container {
+    background-image: url("../img/test-food-jumbotron.jpg");
+    background-size: cover;
+}
+#jumbotron {
+    background-color: rgba(249, 242, 159, 0.30);
+}
+#jumbotron-heading {
+    color: white;
+}
